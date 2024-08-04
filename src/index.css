@@ -2,10 +2,17 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 .layout {
   margin: 25px 60px;
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+  margin-top: 25px;
 }
 
 .menu-items {
@@ -16,4 +23,26 @@ body {
 
 .menu-items li {
   margin: 0 30px;
+  color: white;
+}
+
+.mobile-icon {
+  color: white;
+  text-align: center;
+
+}
+
+.mobile-icon .fa {
+  padding: 0 5px;
+}
+
+.home-section {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+}
+
+.home-section img {
+  height: 50vh;
+  object-fit: cover;
 }

@@ -7,7 +7,7 @@ const Header = () => {
                 <div className="row">
                     <div className="col-lg-3">
                         <div className="mobile-icon">
-<h6><i class="fa fa-mobile" aria-hidden="true"></i> Get the App</h6>
+                            <h6><i class="fa fa-mobile" aria-hidden="true"></i> Get the App</h6>
                         </div>
                         
                     </div>

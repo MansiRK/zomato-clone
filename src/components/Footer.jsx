@@ -2,9 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='container'>
       <footer className="py-5">
-          <h2>Zomato</h2>
+          {/* <h2>Zomato</h2> */}
+          <img src="/images/logo.png" alt="" />
     <div className="row">
       <div className="col-lg-2 col-md-2 mb-3">
       

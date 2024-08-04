@@ -2,14 +2,16 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 
-const Layout = () => {
+const Layout = ({children}) => {
   return (
-    <div className='container'>
-        <div className="layout">
- <Header/>
+  <>
+   <Header/>
+<main>
+  {children}
+</main>
       <Footer/>
-        </div>
-    </div>
+  </>
+
   )
 }
 
